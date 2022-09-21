@@ -21,6 +21,10 @@ SET time_zone = "+00:00";
 -- Banco de dados: `agenda`
 --
 
+DROP DATABASE IF EXISTS agenda;
+CREATE DATABASE IF NOT EXISTS agenda;
+USE agenda;
+
 -- --------------------------------------------------------
 
 --
@@ -41,11 +45,7 @@ CREATE TABLE `clientes` (
 
 INSERT INTO `clientes` (`id`, `nome`, `servico`, `horario`, `data`) VALUES
 (1, 'user01', 'Cabelo', '12:00', '2022-10-06'),
-(2, 'Iasmin', 'Cabelo', '09:00', '2022-08-29'),
-(3, 'user08', 'Manicure e', '', '2022-10-20'),
-(4, 'user02', 'Maquiagem', '', '2022-09-24'),
-(5, 'user03', 'Estética', '09:00', '2022-08-22'),
-(6, 'user10', '', '', '2022-10-06');
+(2, 'user02', 'Cabelo', '09:00', '2022-08-29'),
 
 --
 -- Índices para tabelas despejadas
