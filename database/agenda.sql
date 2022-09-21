@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3307
--- Tempo de geração: 17-Set-2022 às 17:14
+-- Tempo de geração: 21-Set-2022 às 13:37
 -- Versão do servidor: 10.4.24-MariaDB
 -- versão do PHP: 8.1.6
 
@@ -45,7 +45,7 @@ CREATE TABLE `clientes` (
 
 INSERT INTO `clientes` (`id`, `nome`, `servico`, `horario`, `data`) VALUES
 (1, 'user01', 'Cabelo', '12:00', '2022-10-06'),
-(2, 'user02', 'Cabelo', '09:00', '2022-08-29'),
+(2, 'user02', 'Maquiagem', '09:00', '2022-08-29');
 
 --
 -- Índices para tabelas despejadas
@@ -71,3 +71,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
